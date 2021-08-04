@@ -1,1 +1,1 @@
-# Amazon-Linux-2-setup
+# Redhat-dot-files
