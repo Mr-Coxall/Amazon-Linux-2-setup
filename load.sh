@@ -12,12 +12,12 @@
 
 # update and upgrade system
 echo Update and upgrade system
-sudo yum check-update
+sudo yum -y check-update
 sudo yum -y upgrade
 
 # load some programs
 echo Load programs
-sudo yum install tree -y
+sudo yum -y install tree
 # sudo apt install unzip
 
 # load .vimrc file
@@ -44,7 +44,7 @@ echo Load YouCompleteMe plugin for Vim
 # load java programming software
 echo load Java
 sudo amazon-linux-extras install java-openjdk11 -y
-sudo yum install java-11-openjdk-devel -y
+sudo yum install -y java-11-openjdk-devel
 
 # loading checkstyle for java
 # https://github.com/checkstyle/checkstyle/releases
@@ -141,4 +141,4 @@ gh auth login
 # use existing GitHub SSH keys
 
 # then remove the dot_files firectory 
-sudo rm -R ~/Redhat-dot-files
+sudo rm -R ~/Mr-Coxall/Amazon-Linux-2-setup
