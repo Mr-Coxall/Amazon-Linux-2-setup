@@ -141,4 +141,4 @@ gh auth login
 # use existing GitHub SSH keys
 
 # then remove the dot_files firectory 
-sudo rm -R ~/Mr-Coxall/Amazon-Linux-2-setup
+sudo rm -R ~/Amazon-Linux-2-setup
