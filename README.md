@@ -1,1 +1,1 @@
-# Redhat-dot-files
+# Amazon Linux 2-dot-files
